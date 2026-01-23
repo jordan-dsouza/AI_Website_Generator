@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>"AI Website Generator"</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<!--Body-->
+
+<body>
+
+    <div class="container">
+        <h1>AI Website Generator</h1>
+
+        <textarea
+            id="prompt"
+            placeholder="Describe your website in a few words..."
+            rows="4"
+        ></textarea>
+
+        <!--Executes when button clicked-->
+        <button onclick="generateWebsite()">Generate Website</button>
+
+        <h2>Live Preview</h2>
+        <!--Unique id 'preview'-->
+        <iframe id="preview"></iframe>
+    </div>
+
+    <!--Script embeds executable code-->
+    <script src="script.js"></script>
+</body>
+</html>
