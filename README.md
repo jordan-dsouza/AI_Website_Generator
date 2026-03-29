@@ -264,5 +264,5 @@ Although deployment is excluded, the system supports export by:
 
 ## 14. Conclusion
 
-This project demonstrates a complete **AI-assisted web development workflow** using **open-source tools only**. It highlights prompt engineering, model integration, frontend-backend communication, and real-time rendering—making it a strong foundation for future AI-powered developer tools.
+This project demonstrates a complete **AI-assisted web development workflow** using **open-source tools only**. It highlights prompt engineering, model integration, frontend-backend communication, and real-time rendering thus making it a strong foundation for future AI-powered developer tools.
 
