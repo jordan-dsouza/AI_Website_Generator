@@ -12,7 +12,8 @@ tokenizer = AutoTokenizer.from_pretrained(
     MODEL_NAME,
     token=HF_TOKEN
 )
-
+# AutoModel automatically detects model architecture for model loading:
+# AutoModelForCausalLM is for text generation:
 model = AutoModelForCausalLM.from_pretrained(
     MODEL_NAME,
     device_map=None,
